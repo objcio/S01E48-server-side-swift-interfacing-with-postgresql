@@ -1,0 +1,12 @@
+{
+  "autoPin": true,
+  "pins": [
+    {
+      "package": "libpq",
+      "reason": null,
+      "repositoryURL": "https://github.com/stepanhruda/libpq-darwin.git",
+      "version": "9.0.1"
+    }
+  ],
+  "version": 1
+}
