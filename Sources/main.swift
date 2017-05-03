@@ -43,7 +43,7 @@ final class Result {
 final class Connection {
     let connection: OpaquePointer
     init(connectionInfo: String) throws {
-        connection = PQconnectdb(connectionString)
+        connection = PQconnectdb(connectionInfo)
         guard PQstatus(connection) == CONNECTION_OK else {
             throw PostgresError(message: "Connection failed")
         }
